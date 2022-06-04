@@ -10,7 +10,8 @@
             "request": "launch",
             "program": "${workspaceFolder}\\test_django\\manage.py",
             "args": [
-                "runserver"
+                "runserver",
+                "172.20.10.7:8000"
             ],
             "django": true,
             "justMyCode": true
